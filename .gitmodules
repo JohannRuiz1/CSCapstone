@@ -1,0 +1,6 @@
+[submodule "vt-research-connect-frontend"]
+	path = vt-research-connect-frontend
+	url = https://git.cs.vt.edu/cscapstone-group3/vt-research-connect-frontend.git
+[submodule "rc-backend"]
+	path = rc-backend
+	url = https://git.cs.vt.edu/cscapstone-group3/rc-backend.git
