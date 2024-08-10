@@ -1,0 +1,90 @@
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.popup-overlay .popup-content {
+    background: var(--primary-background-color);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    width: 600px; /* Adjust width as needed */
+    max-width: 90%;
+}
+
+.popup-overlay .popup-content h2 {
+    margin-top: 0;
+}
+
+.popup-overlay .popup-content .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.popup-overlay .popup-content form {
+    width: 100%;
+    margin: auto;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.1em;
+}
+
+.popup-overlay .popup-content form div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 0.6em;
+}
+
+.popup-overlay .popup-content form label {
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.popup-overlay .popup-content form .radio-buttons div {
+    margin: 0;
+}
+
+.popup-overlay .popup-content form .radio-buttons div label {
+    display: flex;
+    gap: 5px;
+    font-weight: normal;
+}
+
+.popup-overlay .popup-content form input,
+.popup-overlay .popup-content form textarea,
+.popup-overlay .popup-content form select {
+    color: var(--primary-color);
+    border-radius: 5px;
+}
+
+.popup-overlay .popup-content form textarea {
+    height: 100px;
+}
+
+.field-error,
+.checkout-field-error {
+    color: var(--error-text-color);
+    font-size: smaller;
+    font-style: italic;
+}
+
+.popup-overlay .popup-content form button {
+    margin-top: 10px;
+    padding: 10px;
+}

@@ -1,0 +1,36 @@
+.opening-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 10px;
+    border-bottom: 1px solid var(--default-text-color);
+    border-radius: 5px;
+    width: 100%;
+}
+
+.opening-item .opening-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.opening-title:hover {
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+.opening-item .opening-lab {
+    font-size: 1rem;
+    font-style: italic;
+}
+
+.opening-item .opening-type {
+    font-size: 1.1rem;
+    text-align: left;
+}
+
+.opening-item .opening-details a {
+    font-size: 1rem;
+    text-decoration: underline;
+}

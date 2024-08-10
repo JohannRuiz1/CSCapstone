@@ -1,0 +1,23 @@
+.openings-page {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.openings-header {
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+    align-items: center;
+}
+
+.openings-header h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.openings-header-buttons {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}

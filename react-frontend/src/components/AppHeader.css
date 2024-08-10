@@ -1,0 +1,45 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 1em;
+    gap: 1em;
+    border-bottom: solid 2px var(--primary-color);
+}
+
+.logo-and-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.logo-and-text:hover {
+    color: inherit;
+}
+
+.logo-text {
+    font-size: xx-large;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.logo {
+    width: 100px;
+    animation: spin 10s linear infinite;
+
+}
+
+.labs-openings-discussion-profile-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+

@@ -1,0 +1,28 @@
+.labs-page {
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
+}
+
+.labs-nav {
+    padding: 1em;
+    text-wrap: nowrap;
+    border: double 5px var(--tertiary-color);
+}
+
+.labs-nav-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: left;
+}
+
+.labs-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 1em;
+}
+
+.labs-title {
+    text-align: left;
+}

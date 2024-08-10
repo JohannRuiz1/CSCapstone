@@ -1,0 +1,61 @@
+.lab-box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 0.5em;
+    gap: 0.1em;
+    border: solid 1px var(--default-text-color);
+    border-radius: 0.25em;
+    width: 300px;
+    padding-top: 1.3em;
+}
+
+.lab-name {
+    font-weight: bolder;
+    text-decoration: underline;
+    
+}
+
+.lab-name:hover {
+    cursor: pointer; /* Ensure pointer cursor on hover */
+}
+
+.lab-major {
+    font-weight: lighter;
+    text-decoration: none; /* Remove underline for major */
+}
+
+.lab-pi {
+    font-style: italic;
+}
+
+.lab-description {
+    height: 80px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.lab-description:hover {
+    cursor: default;
+}
+
+h1, h2, h3, h4 {
+    padding: 5px;
+    margin: 0;
+}
+
+
+
+.star-icon-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.star-icon {
+    color: gold;
+    font-size: 1em;
+}

@@ -1,0 +1,32 @@
+ul.college-filter {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    list-style-type: none;
+}
+
+li.college-filter-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 0.5em;
+}
+
+.college-link.active {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+ul.major-filter {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    list-style-type: none;
+    margin: 1em 0 1em 1em;
+}
+
+.major-link.active {
+    font-style: italic;
+}
+
+

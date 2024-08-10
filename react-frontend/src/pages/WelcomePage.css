@@ -1,0 +1,30 @@
+.logged-in-content {
+    margin: 10em;
+}
+
+.welcome-page {
+    background-image: url('/site-images/vt-campus.jpg');
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 4rem 1rem 40rem 1rem;
+}
+
+.welcome-students {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    width: 75%;
+}
+
+.welcome-page p a,
+.welcome-page p a:visited {
+    color: var(--primary-color);
+}
+
+.welcome-page p a:hover,
+.welcome-page p a.active {
+    color: var(--secondary-color);
+}

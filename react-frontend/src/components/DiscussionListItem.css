@@ -1,0 +1,53 @@
+.discussion-post {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 10px;
+    border-bottom: 1px solid var(--default-text-color);
+    border-radius: 5px;
+    width: 100%;
+}
+
+.discussion-post .discussion-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.discussion-title:hover {
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+.discussion-post .discussion-author-details {
+    font-size: 1rem;
+    font-style: italic;
+}
+
+.discussion-post .discussion-content {
+    font-size: 1.1rem;
+    text-align: left;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.discussion-post .discussion-details a {
+    font-size: 1rem;
+    text-decoration: underline;
+}
+
+.discussion-post .resizable-textarea {
+    resize: both;
+    min-width: 500px;
+    min-height: 100px;
+    color: var(--primary-color);
+    border-radius: 5px;
+}
+
+.discussion-post .cancel-submit-buttons {
+    display: flex;
+    gap: 10px;
+}

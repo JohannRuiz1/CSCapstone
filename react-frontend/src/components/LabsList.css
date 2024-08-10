@@ -1,0 +1,7 @@
+#lab-boxes {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    padding: 1em;
+    gap: 1em;
+}

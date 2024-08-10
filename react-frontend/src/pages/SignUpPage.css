@@ -1,0 +1,96 @@
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px auto;
+}
+
+.signup-form form {
+    width: 100%;
+    max-width: 330px;
+    margin: auto;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.1em;
+}
+
+.signup-form form div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 0.6em;
+}
+
+.signup-form form div label {
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.signup-form form .radio-buttons label,
+.signup-form form .checkboxes label {
+    margin-bottom: 5px;
+}
+
+.signup-form form .radio-buttons div,
+.signup-form form .checkboxes div {
+    margin: 0;
+}
+
+.signup-form form .radio-buttons div label,
+.signup-form form .checkboxes div label {
+    display: flex;
+    gap: 5px;
+    font-weight: normal;
+}
+
+.signup-form form input,
+.signup-form form select,
+.signup-form form textarea {
+    color: var(--primary-color);
+    border-radius: 5px;
+}
+
+.signup-form form textarea {
+    height: 100px;
+}
+
+.field-error {
+    color: var(--error-text-color);
+    font-size: smaller;
+    font-style: italic;
+}
+
+.signup-status-box {
+    padding: 10px;
+    color: var(--error-text-color);
+    font-style: italic;
+    border-top: 1px dotted var(--secondary-color);
+    border-bottom: 1px dotted var(--secondary-color);
+}
+
+.signup-form .have-account {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    padding: 10px;
+}
+
+.signup-form .have-account a {
+    text-decoration: underline;
+}
+
+.professor-type div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.research-lab-addition {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

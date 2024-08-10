@@ -1,0 +1,29 @@
+services:
+  db:
+    build:
+      context: ./postgres/
+      dockerfile: Dockerfile
+    container_name: vtrc-postgres
+    restart: always
+    volumes:
+      - postgres:/var/lib/postgresql/data
+    ports:
+      - 5432:5432
+
+  springboot:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    container_name: vtrc-springboot
+    depends_on:
+      - db
+    restart: always
+    ports:
+      - 8080:8080
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://db:5432/vtrc
+      SPRING_DATASOURCE_USERNAME: postgres
+      SPRING_DATASOURCE_PASSWORD: mypass
+
+volumes:
+  postgres:

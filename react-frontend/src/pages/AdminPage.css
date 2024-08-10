@@ -1,0 +1,26 @@
+.admin-page {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 1em;
+}
+
+.admin-page div ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 10px;
+}
+
+.admin-page div ul li {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    padding-bottom: 10px;
+    justify-content: center;
+    border-bottom: dotted 1px var(--tertiary-color);
+}
+
+.admin-page div ul li a {
+    text-decoration: underline;
+}

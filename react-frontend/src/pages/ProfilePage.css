@@ -1,0 +1,121 @@
+.profile-page {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.profile-header h1 {
+    margin: 0;
+    font-size: 3rem;
+    color: var(--primary-color);
+}
+
+.profile-header p {
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+}
+
+.profile-header button {
+    margin: 1em;
+}
+
+.profile-section h2 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    border-bottom: 2px solid var(--tertiary-color);
+    padding-bottom: 5px;
+    width: fit-content;
+}
+
+.profile-section ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.profile-section ul li {
+    margin: 5px 0;
+    font-size: var(--default-font-size);
+}
+
+.profile-section p a {
+    text-decoration: underline;
+}
+
+.edit-section form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+    align-items: center;
+}
+
+.edit-section .student-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: center;
+}
+
+.edit-section form h2 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    border-bottom: 2px solid var(--tertiary-color);
+    padding-bottom: 5px;
+    width: fit-content;
+}
+
+.edit-section form div {
+    display: flex;
+    flex-direction: column;
+    width: 600px; /* Adjust width as needed */
+    max-width: 100%;
+    margin-top: 0.6em;
+}
+
+.edit-section form div label {
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.edit-section form .radio-buttons label,
+.edit-section form .checkboxes label {
+    margin-bottom: 5px;
+}
+
+.edit-section form .radio-buttons div,
+.edit-section form .checkboxes div {
+    margin: 0;
+}
+
+.edit-section form .radio-buttons div label,
+.edit-section form .checkboxes div label {
+    display: flex;
+    gap: 5px;
+    font-weight: normal;
+}
+
+.edit-section form input,
+.edit-section form select,
+.edit-section form textarea {
+    color: var(--primary-color);
+    border-radius: 5px;
+}
+
+.edit-section form textarea {
+    height: 100px;
+}
+
+.edit-section form button {
+    margin-top: 1em;
+}
